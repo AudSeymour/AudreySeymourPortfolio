@@ -1,0 +1,59 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.one-index{
+    text-decoration: none;
+}
+
+.four{
+    text-decoration: underline 2px #7C976C;
+    text-underline-offset: 10px;
+}
+
+main img{
+    height: 70%;
+    width: 70%; 
+    display: block;
+    margin: auto;
+    border: 1px solid #7C976C;
+}
+
+.resume-download{
+    text-decoration: none;
+}
+.button{
+display: block;
+margin: auto;
+margin-top: 40px;
+color: #7C976C;
+background-color: white;
+border: solid 1px #7C976C;
+font-family: 'Titillium Web', sans-serif;
+border-radius: 10px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.button:hover{
+    background-color: #7C976C;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 375px){
+
+.four{
+    text-decoration: underline 2px white;
+    text-underline-offset: 10px;
+}
+}

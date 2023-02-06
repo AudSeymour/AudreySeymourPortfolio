@@ -1,0 +1,98 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.one-index{
+    text-decoration: none;
+}
+
+.two{
+    text-decoration: underline 2px #7C976C;
+    text-underline-offset: 10px;
+}
+
+.self-image h2, .self-image p{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.self-image{
+float: left;
+width: 50%;
+height: 50%;
+}
+
+.self-image img{
+    width: 75%;
+    height: 100%;
+     }
+ 
+.self-image h2{
+    left: 660px;
+    top: -405px;
+    position: relative;
+}
+
+.self-image p{
+    left: 480px;
+    top: -394px;
+    position: relative;
+    font-size: 1.15em;
+}
+
+footer{
+    clear: both;
+}
+
+@media screen and (max-width: 1025px){
+
+    .self-image h2{
+        width: 25%;
+        left: 450px;
+        margin: auto;
+    }
+
+    .self-image p{
+            margin: auto;
+            font-size: 1em;
+            left: 450px;
+           }
+    }
+
+@media screen and (max-width: 375px){
+
+
+.self-image img{
+    clear: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: 97px;
+    margin-top: 20px;
+  }
+  .two{
+    text-decoration: underline 2px white;
+    text-underline-offset: 10px;
+}
+
+  .self-image h2{
+    clear: none;
+    margin: auto;
+    width: 100%;
+    left: 139px;
+    top: -335px;
+  }
+  .self-image p{
+  clear: none;
+  margin: auto;
+  width: 100%;
+  left: 104px;
+  top: 0px;
+  padding-bottom: 40px;
+  }
+
+    }

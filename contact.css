@@ -1,0 +1,111 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+  }
+
+
+main h2{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.one-index{
+    text-decoration: none;
+}
+.three{
+    text-decoration: underline 2px #7C976C;
+    text-underline-offset: 10px;
+}
+
+.contact-card{
+    border: 1px solid #7C976C;
+    margin: 50px;;
+}
+.logo{
+    float: right;
+    width: 50%;
+    position: relative;
+}
+
+.contact-div{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+.contact-div, .contact-info, .contact-info2{
+    position: relative;
+    left: 140px;
+}
+
+.contact-div, .contact-info{
+    padding-top: 20px;
+}
+
+.contact-info p, .contact-info2 p{
+    position: relative;
+    left: 70px;
+    top: -50px;
+    border-left: solid 1px #7C976C;
+    padding-left: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contact-info img, .contact-info2 img{
+    width: 4%;
+}
+
+
+
+footer{
+    clear: both;
+} 
+
+@media screen and (max-width: 1025px){
+
+    .contact-div, .contact-info, .contact-info2{
+        margin: auto;
+        width: 50%;
+        left: -90px;
+    }
+
+} 
+
+@media screen and (max-width: 375px){
+
+
+.logo{
+  display: none;
+}
+
+.three{
+    text-decoration: underline 2px white;
+    text-underline-offset: 10px;
+}
+
+.contact-div{
+    left: 20px;
+}
+
+.contact-card{
+    border: 1px solid #7C976C;
+    margin: 20px;;
+}
+
+.contact-info p, .contact-info2 p{
+    top: -39px;
+    left: 30px;
+
+}
+
+.contact-info, .contact-info2{
+    margin: auto;
+    left: -60px;
+}
+
+.contact-info img, .contact-info2 img{
+    width: 10%;
+}
+}
